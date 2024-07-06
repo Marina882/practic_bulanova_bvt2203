@@ -1,0 +1,2 @@
+CREATE ROLE giraffee WITH LOGIN PASSWORD '+JoxPLFRijkv@t6&4^1+';
+CREATE DATABASE vac OWNER giraffee;

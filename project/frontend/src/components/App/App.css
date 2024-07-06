@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, #FFDAE9, #FFFFFF);
+  font-family: "Montserrat", sans-serif;
+}
+
+.all
+{
+  display:flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container 
+{
+  width: 100vw;
+  text-align: center;
+  position: relative;
+}
+
+.main {
+  text-align: center;
+}
+
+.search {
+  width: 200px;
+  max-width: 320px;
+  height: 40px;
+  background-color: transparent;
+  border: 2px solid #BE2A19;
+  border-radius: 50px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#search input[type="text"] {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #925822;
+}
+
+.search::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #925822;
+}
+
+.main form button {
+  background-color: transparent;
+  border: none;
+}
+
+.img-star-one {
+  width: 5px;
+  height: 6px;
+}
+
+.star-img {
+  margin-left: 1056px;
+  margin-top: 50px;
+}
+
+.img-telega {
+  width: 5px;
+  height: 5px;
+}
+
+.telega {
+  margin-left: 57px;
+  margin-top: 5px;
+}
+
+.main h1 {
+  font-size: 2rem;
+  color: #BE2A19;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.description {
+  font-size: 28px;
+  color: #925822;
+  font-weight: 500;
+}
+
+.salary-text {
+  font-size: 1.5rem;
+  color: #925822;
+  margin-top: 20px;
+}
+
+.price {
+  width: 80%;
+  max-width: 316px;
+  height: 40px;
+  background-color: #925822;
+  border: none;
+  border-radius: 50px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.price::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  color: #925822;
+}
+
+#price input[type="text"] {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  color: #925822;
+}
+
+.vacancy h2 {
+  font-size: 2rem;
+  color: #925822;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gear
+{
+  position: absolute;
+  right: 0;
+  top: 700px;
+}
+
+.card {
+  background-color: #FFDCEA;
+  width: 90%;
+  max-width: 400px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(146, 88, 34, 0.5);
+  padding: 20px;
+  z-index: 2;
+}
+.ellipse
+{
+  position: absolute;
+  left: 0;
+  top: 2050px;
+}
+.curve
+{
+  position: absolute;
+  right: 0;
+}
+
+.glass
+{
+    position: absolute;
+    z-index: 2;
+    left: -125px;
+    top: 2000px;
+}
+
+.name h3 {
+  font-size: 1.5rem;
+  color: #925822;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.skils {
+  font-size: 1rem;
+  color: #925822;
+  margin-bottom: 10px;
+}
+
+.hr-line {
+  border: none;
+  border-top: 2px solid #925822;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.task {
+  font-size: 1rem;
+  color: #925822;
+  margin-bottom: 10px;
+}
+
+.price-vacancy {
+  background-color: #925822;
+  border-radius: 10px;
+  color: #FFDCEA;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+}
+
+.search-wrapper
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: auto;
+}
+
+.button-wrapper
+{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 30px
+}
+
+.title
+{
+  font-size: 120px;
+  color: #BE2A19;
+  font-weight: 500;
+}
+
+input
+{
+  font-size: 30px;
+  font-weight: 300;
+  color: #925822;
+}
+
+.search-bar-wrapper
+{
+  display: flex;
+  background-color: transparent;
+  border: 2px solid #BE2A19;
+}
+
+.search-button
+{
+  margin-top: 20px;
+  font-size: 16px;
+  color: #925822;
+  background-color: transparent;
+}
+.search-button:hover
+{
+  border-color: #925822;
+  border-radius: 12px;
+}
+
+.location
+{
+  font-size: 1rem;
+  color: #925822;
+  margin-bottom: 10px;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs-wrapper
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 160px;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.image-wrapper
+{
+  display: flex;
+  gap: 120px;
+  position: relative;
+}

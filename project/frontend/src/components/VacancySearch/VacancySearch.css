@@ -1,0 +1,125 @@
+/* .vacancies-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.source-column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.vacancy-card {
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vacancy-card p, .vacancy-card a {
+    margin: 5px 0;
+}
+
+.vacancy-card a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.vacancy-card a:hover {
+    text-decoration: underline;
+} */
+
+.container {
+    font-family: Arial, sans-serif;
+    background-color: #ffe4e1;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 3em;
+    color: #b22222;
+}
+
+.header p {
+    font-size: 1.2em;
+    color: #a52a2a;
+}
+
+.header input {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1em;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+.header button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #a52a2a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: #b22222;
+}
+
+.main {
+    padding: 20px;
+}
+
+.main h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #a52a2a;
+}
+
+.vacancies-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vacancy-card {
+    background-color: #ffebcd;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.vacancy-card h3 {
+    color: #b22222;
+}
+
+.vacancy-card p {
+    color: #a52a2a;
+}
+
+.vacancy-card button {
+    padding: 10px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #a52a2a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.vacancy-card button:hover {
+    background-color: #b22222;
+}

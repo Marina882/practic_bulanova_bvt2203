@@ -1,0 +1,26 @@
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore virtual environment
+project/backend/venv/
+.env/
+
+secret_key.txt
+
+*.sqlite3
+
+/media/
+
+/static/
+
+.env
+
+project/frontend/node_modules/
+
+# Ignore coverage reports
+coverage/
+*.cover
+
+# Ignore Elasticsearch data directory
+elasticsearch/

@@ -1,0 +1,84 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1e1e1e;
+    color: #fff;
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+  
+  .search-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-form input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search-form button {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .advanced-search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .advanced-search-form div {
+    margin-bottom: 10px;
+  }
+  
+  .advanced-search-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .advanced-search-form button {
+    padding: 10px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .results-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .results-list {
+    width: 45%;
+  }
+  
+  .results-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .results-list li {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  

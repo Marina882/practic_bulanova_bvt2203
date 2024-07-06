@@ -1,0 +1,55 @@
+.filter-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .custom-input {
+    padding: 10px 20px;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #7a4210; /* Цвет фона */
+    border: none;
+    border-radius: 30px;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .radio-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-radio {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  .custom-radio input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #7a4210; /* Цвет рамки */
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .custom-radio input[type="radio"]:checked {
+    background-color: #7a4210; /* Цвет фона при выбранном состоянии */
+  }
+  
+  .custom-radio span {
+    font-size: 18px;
+    color: #7a4210; /* Цвет текста */
+  }
+  
+  .custom-radio input[type="radio"]:checked + span {
+    font-weight: bold; /* Жирный текст при выбранном состоянии */
+  }
+  
